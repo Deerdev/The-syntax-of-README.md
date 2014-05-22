@@ -3,6 +3,8 @@ The--syntax-of-write-the-.md-file
 
 #how to write README.md file
 [Writing on GitHub](https://help.github.com/articles/writing-on-github#task-lists)
+[Markdown Basics](https://help.github.com/articles/markdown-basics)
+[GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown)
 #标题的级数
 ##标题的级数2
 ###标题的级数3
