@@ -2,6 +2,7 @@ The--syntax-of-write-the-.md-file
 =================================
 
 #how to write README.md file
+[Writing on GitHub](https://help.github.com/articles/writing-on-github#task-lists)
 #标题的级数
 ##标题的级数2
 ###标题的级数3
