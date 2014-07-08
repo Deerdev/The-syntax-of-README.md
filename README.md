@@ -64,3 +64,79 @@ The--syntax-of-write-the-.md-file
 
 ###渐变
 * 使用渐变填充
+
+####黑块
+`[我是一个黑块]`
+
+####代码行：
+```
+$sudo apt-get install vim-gnome
+```
+
+####代码块：
+```C++
+@Sweetfish
+/*this is a test
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout << "hello world!" << endl;
+    return 0;
+}
+```
+####流程图
+```flow
+st=>start: Start:>https://www.zybuluo.com
+io=>inputoutput: verification
+op=>operation: Your Operation
+cond=>condition: Yes or No?
+sub=>subroutine: Your Subroutine
+e=>end
+
+st->io->op->cond
+cond(yes)->e
+cond(no)->sub->io
+```
+#####[流程图语法](http://adrai.github.io/flowchart.js/)
+####序列图
+##### 示例 1
+
+```seq
+Alice->Bob: Hello Bob, how are you?
+Note right of Bob: Bob thinks
+Bob-->Alice: I am good thanks!
+```
+
+##### 示例 2
+
+```seq
+Title: Here is a title
+A->B: Normal line
+B-->C: Dashed line
+C->>D: Open arrow
+D-->>A: Dashed open arrow
+```
+
+#####更多语法参考：[序列图语法参考](http://bramp.github.io/js-sequence-diagrams/)
+#### 表格
+
+示例：
+
+| 项目        | 价格   |  数量  |
+| --------   | -----:  | :----:  |
+| 计算机     | $1600 |   5     |
+| 手机        |   $12   |   12   |
+| 管线        |    $1    |  234  |
+
+#### 定义型列表
+
+名词 1
+:   定义 1（左侧有一个可见的冒号和四个不可见的空格）
+
+代码块 2
+:   这是代码块的定义（左侧有一个可见的冒号和四个不可见的空格）
+
+        代码块（左侧有八个不可见的空格）
+
