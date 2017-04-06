@@ -21,7 +21,9 @@ The--syntax-of-write-the-.md-file
 **画了渐进_填充的椭圆_ 和 渐进填充的直线**
 
 ##插入图片(url)
+
 <img heigh="500px" width="500px" src ="http://ww4.sinaimg.cn/bmiddle/6c9594a0jw1egkqlcgb8bj218g18gwsw.jpg">
+
 ##嵌入列表
 - [ ] 画图
   - [ ] 椭圆
