@@ -1,7 +1,7 @@
-The--syntax-of-write-the-.md-file
+The-syntax-of-write-the-.md-file
 =================================
 
-#how to write README.md file
+# how to write README.md file
 [Writing on GitHub](https://help.github.com/articles/writing-on-github#task-lists)
 
 [Markdown Basics](https://help.github.com/articles/markdown-basics)
@@ -13,24 +13,24 @@ The--syntax-of-write-the-.md-file
 ####标题的级数4
 #####标题的级数5
 
-##使用倾斜字体
+## 使用倾斜字体
 *主要介绍 如何设置渐进，渐进填充*
-##加粗字体
+## 加粗字体
 **画了渐进填充的椭圆 和 渐进填充的直线**
-##加粗字体和倾斜字体混输
-**画了渐进_填充的椭圆_ 和 渐进填充的直线**
+## 加粗字体和倾斜字体混输
+**画了渐进 _填充的椭圆_ 和 渐进填充的直线**
 
-##插入图片(url)
+## 插入图片(url)
 
 <img heigh="500px" width="500px" src ="http://ww4.sinaimg.cn/bmiddle/6c9594a0jw1egkqlcgb8bj218g18gwsw.jpg">
 
-##嵌入列表
+## 嵌入列表
 - [ ] 画图
   - [ ] 椭圆
   - [ ] 线条
   - [x] 矩形
 
-##分点，条目
+## 分点，条目
 * Item1
 * Item2
 * Item3
@@ -43,8 +43,8 @@ The--syntax-of-write-the-.md-file
 2. Item2
 3. Item3
 
-#索引目录
-##目录
+# 索引目录
+## 目录
 
 * [QPainter](#QPainter)
   * [矩形](#矩形)
@@ -53,29 +53,29 @@ The--syntax-of-write-the-.md-file
   * [渐变](#渐变)
 
 
-#QPainter
+# QPainter
 
-###矩形
+### 矩形
 * 画一个矩形
 
-###椭圆
+### 椭圆
 * 画一个椭圆
 
-###线条
+### 线条
 * 画一个线条
 
-###渐变
+### 渐变
 * 使用渐变填充
 
-####黑块
+#### 黑块
 `[我是一个黑块]`
 
-####代码行：
+#### 代码行：
 ```
 $sudo apt-get install vim-gnome
 ```
 
-####代码块：
+#### 代码块：
 ```C++
 @Sweetfish
 /*this is a test
@@ -88,7 +88,9 @@ int main()
     return 0;
 }
 ```
-####流程图（不支持）
+
+#### 流程图（不支持）
+
 ```flow
 st=>start: Start:>https://www.zybuluo.com
 io=>inputoutput: verification
@@ -101,8 +103,9 @@ st->io->op->cond
 cond(yes)->e
 cond(no)->sub->io
 ```
-#####[流程图语法](http://adrai.github.io/flowchart.js/)
-####序列图(不支持)
+
+##### [流程图语法](http://adrai.github.io/flowchart.js/)
+#### 序列图(不支持)
 ##### 示例 1
 
 ```seq
@@ -121,7 +124,7 @@ C->>D: Open arrow
 D-->>A: Dashed open arrow
 ```
 
-#####更多语法参考：[序列图语法参考](http://bramp.github.io/js-sequence-diagrams/)
+##### 更多语法参考：[序列图语法参考](http://bramp.github.io/js-sequence-diagrams/)
 #### 表格
 
 示例：
